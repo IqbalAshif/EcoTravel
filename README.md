@@ -14,3 +14,6 @@ If an error occurs when running the app, run:
 pod deintegrate
 pod install
 ```
+
+##This project was done in a group of 4 people. Main repository will be found on
+https://gitlab.com/Tuomas73/ecotravelapp

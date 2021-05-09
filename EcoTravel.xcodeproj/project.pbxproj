@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2102808A9953F2F0E438C46A /* Pods_EcoTravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2155ED9624033959CE3A578 /* Pods_EcoTravelTests.framework */; };
-		236C01CA3FF4156DB6106CD6 /* Pods_EcoTravel_EcoTravelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F924C258992D73838F4E3D99 /* Pods_EcoTravel_EcoTravelUITests.framework */; };
-		616D94E2338157DF9D461D4E /* Pods_EcoTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE8D7D3F3102DED2340E0B8 /* Pods_EcoTravel.framework */; };
+		358CF9BBD392A0C938B66F93 /* Pods_EcoTravel_EcoTravelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F7C3FACF03CC280E698E91 /* Pods_EcoTravel_EcoTravelUITests.framework */; };
+		42EF7DF1958BC2CD8022F244 /* Pods_EcoTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA40C9348EE5AD8B8E3E1BE3 /* Pods_EcoTravel.framework */; };
 		6A07323D26404FD800DD4ED3 /* TripDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A07323C26404FD800DD4ED3 /* TripDetailsViewController.swift */; };
 		6A0732412640611A00DD4ED3 /* TripPropertyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0732402640611A00DD4ED3 /* TripPropertyConverter.swift */; };
 		6A2762CF263ED5D40069D77B /* TripsTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2762CD263ED5D40069D77B /* TripsTableView.storyboard */; };
@@ -68,6 +67,7 @@
 		6ADCE67C2629C64E00F3B781 /* RouteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADCE67B2629C64E00F3B781 /* RouteAPI.swift */; };
 		6ADCE6812629C67B00F3B781 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADCE6802629C67B00F3B781 /* Trip.swift */; };
 		6AE831CC26445640008E359B /* RouteSuggestionsUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE831CB26445640008E359B /* RouteSuggestionsUIManager.swift */; };
+		88DEC82FEAD47C8346F3039E /* Pods_EcoTravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F69118A654DA06D7BE1989C /* Pods_EcoTravelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,9 +109,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1886A41BB1664F9FB97CED20 /* Pods-EcoTravel-EcoTravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel-EcoTravelUITests.debug.xcconfig"; path = "Target Support Files/Pods-EcoTravel-EcoTravelUITests/Pods-EcoTravel-EcoTravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3279DC4921CBF19B6DB76F92 /* Pods-EcoTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravelTests.release.xcconfig"; path = "Target Support Files/Pods-EcoTravelTests/Pods-EcoTravelTests.release.xcconfig"; sourceTree = "<group>"; };
-		4A55AE8E90A37367D7892E4F /* Pods-EcoTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel.debug.xcconfig"; path = "Target Support Files/Pods-EcoTravel/Pods-EcoTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		3F69118A654DA06D7BE1989C /* Pods_EcoTravelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTravelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4040FD003B9441CD614B9C82 /* Pods-EcoTravel-EcoTravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel-EcoTravelUITests.release.xcconfig"; path = "Target Support Files/Pods-EcoTravel-EcoTravelUITests/Pods-EcoTravel-EcoTravelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		470934E09E19AD15FCBFA31F /* Pods-EcoTravel-EcoTravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel-EcoTravelUITests.debug.xcconfig"; path = "Target Support Files/Pods-EcoTravel-EcoTravelUITests/Pods-EcoTravel-EcoTravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A07323C26404FD800DD4ED3 /* TripDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewController.swift; sourceTree = "<group>"; };
 		6A0732402640611A00DD4ED3 /* TripPropertyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPropertyConverter.swift; sourceTree = "<group>"; };
 		6A2762CE263ED5D40069D77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TripsTableView.storyboard; sourceTree = "<group>"; };
@@ -168,12 +168,12 @@
 		6ADCE67B2629C64E00F3B781 /* RouteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAPI.swift; sourceTree = "<group>"; };
 		6ADCE6802629C67B00F3B781 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		6AE831CB26445640008E359B /* RouteSuggestionsUIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSuggestionsUIManager.swift; sourceTree = "<group>"; };
-		6F7813BFFFAC873C82728050 /* Pods-EcoTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel.release.xcconfig"; path = "Target Support Files/Pods-EcoTravel/Pods-EcoTravel.release.xcconfig"; sourceTree = "<group>"; };
-		9F339930822BE97083B3554F /* Pods-EcoTravel-EcoTravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel-EcoTravelUITests.release.xcconfig"; path = "Target Support Files/Pods-EcoTravel-EcoTravelUITests/Pods-EcoTravel-EcoTravelUITests.release.xcconfig"; sourceTree = "<group>"; };
-		BFE8D7D3F3102DED2340E0B8 /* Pods_EcoTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2155ED9624033959CE3A578 /* Pods_EcoTravelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTravelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D43223984FC692A055BA669D /* Pods-EcoTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravelTests.debug.xcconfig"; path = "Target Support Files/Pods-EcoTravelTests/Pods-EcoTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F924C258992D73838F4E3D99 /* Pods_EcoTravel_EcoTravelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTravel_EcoTravelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E453885B796CEC900BF7DA /* Pods-EcoTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravelTests.release.xcconfig"; path = "Target Support Files/Pods-EcoTravelTests/Pods-EcoTravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		75CB01BAB264CDC61AA03913 /* Pods-EcoTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel.debug.xcconfig"; path = "Target Support Files/Pods-EcoTravel/Pods-EcoTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FCDF408444CB852BBF8F33 /* Pods-EcoTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravelTests.debug.xcconfig"; path = "Target Support Files/Pods-EcoTravelTests/Pods-EcoTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8F7C3FACF03CC280E698E91 /* Pods_EcoTravel_EcoTravelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTravel_EcoTravelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA40C9348EE5AD8B8E3E1BE3 /* Pods_EcoTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83EBDCEC716B0485F691E8B /* Pods-EcoTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoTravel.release.xcconfig"; path = "Target Support Files/Pods-EcoTravel/Pods-EcoTravel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +189,7 @@
 				6ADAE0922637E677007F3919 /* AWSCognitoIdentityProvider.xcframework in Frameworks */,
 				6ADAE0A62637E69C007F3919 /* AWSS3.xcframework in Frameworks */,
 				6ADAE09C2637E683007F3919 /* AWSCore.xcframework in Frameworks */,
-				616D94E2338157DF9D461D4E /* Pods_EcoTravel.framework in Frameworks */,
+				42EF7DF1958BC2CD8022F244 /* Pods_EcoTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2102808A9953F2F0E438C46A /* Pods_EcoTravelTests.framework in Frameworks */,
+				88DEC82FEAD47C8346F3039E /* Pods_EcoTravelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236C01CA3FF4156DB6106CD6 /* Pods_EcoTravel_EcoTravelUITests.framework in Frameworks */,
+				358CF9BBD392A0C938B66F93 /* Pods_EcoTravel_EcoTravelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,9 +223,9 @@
 				6ADAE08C2637E672007F3919 /* AWSAuthCore.xcframework */,
 				6ADAE0872637E66E007F3919 /* AWSAPIGateway.xcframework */,
 				6ADAE0812637E64E007F3919 /* MOPRIMTmdSdk.xcframework */,
-				BFE8D7D3F3102DED2340E0B8 /* Pods_EcoTravel.framework */,
-				F924C258992D73838F4E3D99 /* Pods_EcoTravel_EcoTravelUITests.framework */,
-				D2155ED9624033959CE3A578 /* Pods_EcoTravelTests.framework */,
+				DA40C9348EE5AD8B8E3E1BE3 /* Pods_EcoTravel.framework */,
+				C8F7C3FACF03CC280E698E91 /* Pods_EcoTravel_EcoTravelUITests.framework */,
+				3F69118A654DA06D7BE1989C /* Pods_EcoTravelTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -353,12 +353,12 @@
 		CB16B061533974439378E481 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A55AE8E90A37367D7892E4F /* Pods-EcoTravel.debug.xcconfig */,
-				6F7813BFFFAC873C82728050 /* Pods-EcoTravel.release.xcconfig */,
-				1886A41BB1664F9FB97CED20 /* Pods-EcoTravel-EcoTravelUITests.debug.xcconfig */,
-				9F339930822BE97083B3554F /* Pods-EcoTravel-EcoTravelUITests.release.xcconfig */,
-				D43223984FC692A055BA669D /* Pods-EcoTravelTests.debug.xcconfig */,
-				3279DC4921CBF19B6DB76F92 /* Pods-EcoTravelTests.release.xcconfig */,
+				75CB01BAB264CDC61AA03913 /* Pods-EcoTravel.debug.xcconfig */,
+				E83EBDCEC716B0485F691E8B /* Pods-EcoTravel.release.xcconfig */,
+				470934E09E19AD15FCBFA31F /* Pods-EcoTravel-EcoTravelUITests.debug.xcconfig */,
+				4040FD003B9441CD614B9C82 /* Pods-EcoTravel-EcoTravelUITests.release.xcconfig */,
+				A3FCDF408444CB852BBF8F33 /* Pods-EcoTravelTests.debug.xcconfig */,
+				73E453885B796CEC900BF7DA /* Pods-EcoTravelTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -370,13 +370,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A87F80326287EE400B59ACC /* Build configuration list for PBXNativeTarget "EcoTravel" */;
 			buildPhases = (
-				0799C13109A5FE787E9EED3B /* [CP] Check Pods Manifest.lock */,
+				C05EBCD3DC34507607F7A713 /* [CP] Check Pods Manifest.lock */,
 				6A46E4CF2633865F0073329B /* Generate Apollo GraphQL API */,
 				6A87F7D226287EE200B59ACC /* Sources */,
 				6A87F7D326287EE200B59ACC /* Frameworks */,
 				6A87F7D426287EE200B59ACC /* Resources */,
 				6ADAE0842637E64E007F3919 /* Embed Frameworks */,
-				3E43D6FCF5F88A2F016AA41B /* [CP] Embed Pods Frameworks */,
+				50049B9331838995F4FD2FC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -391,7 +391,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A87F80626287EE400B59ACC /* Build configuration list for PBXNativeTarget "EcoTravelTests" */;
 			buildPhases = (
-				7EA961611A82891A82DA7387 /* [CP] Check Pods Manifest.lock */,
+				E6A4F89125BF72D6753FE4E1 /* [CP] Check Pods Manifest.lock */,
 				6A87F7EB26287EE400B59ACC /* Sources */,
 				6A87F7EC26287EE400B59ACC /* Frameworks */,
 				6A87F7ED26287EE400B59ACC /* Resources */,
@@ -410,11 +410,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A87F80926287EE400B59ACC /* Build configuration list for PBXNativeTarget "EcoTravelUITests" */;
 			buildPhases = (
-				C9D1C16DA20C70EA4B419F78 /* [CP] Check Pods Manifest.lock */,
+				6ED2C83EB4DABC9AA294E11E /* [CP] Check Pods Manifest.lock */,
 				6A87F7F626287EE400B59ACC /* Sources */,
 				6A87F7F726287EE400B59ACC /* Frameworks */,
 				6A87F7F826287EE400B59ACC /* Resources */,
-				DE954AE4FB30BA7DCC744530 /* [CP] Embed Pods Frameworks */,
+				F71DF8C03B0AE463B9BC16AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -504,29 +504,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0799C13109A5FE787E9EED3B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EcoTravel-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3E43D6FCF5F88A2F016AA41B /* [CP] Embed Pods Frameworks */ = {
+		50049B9331838995F4FD2FC9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -561,29 +539,7 @@
 			shellPath = /bin/sh;
 			shellScript = "SCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
 		};
-		7EA961611A82891A82DA7387 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EcoTravelTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9D1C16DA20C70EA4B419F78 /* [CP] Check Pods Manifest.lock */ = {
+		6ED2C83EB4DABC9AA294E11E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -605,7 +561,51 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DE954AE4FB30BA7DCC744530 /* [CP] Embed Pods Frameworks */ = {
+		C05EBCD3DC34507607F7A713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A4F89125BF72D6753FE4E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoTravelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71DF8C03B0AE463B9BC16AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -870,7 +870,7 @@
 		};
 		6A87F80426287EE400B59ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A55AE8E90A37367D7892E4F /* Pods-EcoTravel.debug.xcconfig */;
+			baseConfigurationReference = 75CB01BAB264CDC61AA03913 /* Pods-EcoTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -889,7 +889,7 @@
 		};
 		6A87F80526287EE400B59ACC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F7813BFFFAC873C82728050 /* Pods-EcoTravel.release.xcconfig */;
+			baseConfigurationReference = E83EBDCEC716B0485F691E8B /* Pods-EcoTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -908,7 +908,7 @@
 		};
 		6A87F80726287EE400B59ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D43223984FC692A055BA669D /* Pods-EcoTravelTests.debug.xcconfig */;
+			baseConfigurationReference = A3FCDF408444CB852BBF8F33 /* Pods-EcoTravelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -930,7 +930,7 @@
 		};
 		6A87F80826287EE400B59ACC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3279DC4921CBF19B6DB76F92 /* Pods-EcoTravelTests.release.xcconfig */;
+			baseConfigurationReference = 73E453885B796CEC900BF7DA /* Pods-EcoTravelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -952,7 +952,7 @@
 		};
 		6A87F80A26287EE400B59ACC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1886A41BB1664F9FB97CED20 /* Pods-EcoTravel-EcoTravelUITests.debug.xcconfig */;
+			baseConfigurationReference = 470934E09E19AD15FCBFA31F /* Pods-EcoTravel-EcoTravelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -972,7 +972,7 @@
 		};
 		6A87F80B26287EE400B59ACC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F339930822BE97083B3554F /* Pods-EcoTravel-EcoTravelUITests.release.xcconfig */;
+			baseConfigurationReference = 4040FD003B9441CD614B9C82 /* Pods-EcoTravel-EcoTravelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
